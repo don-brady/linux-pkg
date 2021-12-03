@@ -16,9 +16,12 @@
 #
 # shellcheck disable=SC2034
 
-DEFAULT_PACKAGE_GIT_URL="https://github.com/delphix/makedumpfile.git"
+DEFAULT_PACKAGE_GIT_URL="https://github.com/don-brady/makedumpfile.git"
 
 UPSTREAM_SOURCE_PACKAGE="makedumpfile"
+
+UPSTREAM_GIT_URL="https://github.com/don-brady/makedumpfile.git"
+UPSTREAM_GIT_BRANCH="upstream-baseline"
 
 function prepare() {
 	logmust install_build_deps_from_control_file
